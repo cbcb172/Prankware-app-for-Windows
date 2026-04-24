@@ -1,7 +1,7 @@
 const { contextBridge } = require('electron');
 
 contextBridge.exposeInMainWorld('launcher', {
-  start: () => {
+  run: () => {
     require('./payload.js');
   }
 });
