@@ -1,4 +1,4 @@
-name: Windows EXE Build
+name: Intercessor for Windows
 on: [push]
 
 jobs:
