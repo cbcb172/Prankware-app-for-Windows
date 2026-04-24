@@ -1,0 +1,21 @@
+{
+  "name": "Entercessor",
+  "version": "1.0.0",
+  "description": "Electron kiosk launcher",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.jslauncher",
+    "productName": "JS Launcher",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
